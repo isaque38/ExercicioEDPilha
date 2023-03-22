@@ -10,7 +10,7 @@ public class FatController {
 	public long fatController(long valor) throws Exception {
 		Pilha pilha = new Pilha();
 		
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 10; i++) {
 			pilha.push(i);
 		}
 		
